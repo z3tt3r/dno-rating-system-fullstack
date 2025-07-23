@@ -1,8 +1,12 @@
 # D&O Rating System Fullstack Application
 
-This application simulates a Directors & Officers (D&O) insurance premium calculation system. It's a full-stack solution comprising a **Spring Boot** backend and a **React** frontend. The project aims to demonstrate a comprehensive system for determining net premiums based on various factors, while also showcasing the interaction between the frontend and backend components. It has its limitations as this has been developed for SME companies sector only. 
+This application is a prototype of a Directors & Officers (D&O) insurance premium calculation system. It's a full-stack solution comprising a **Spring Boot** backend and a **React** frontend. The project aims to demonstrate a comprehensive system for determining net premiums based on various factors, while also showcasing the interaction between the frontend and backend components. It has its limitations as this has been developed for SME companies sector only. 
 
 NOTE: The actual rates has been changed from its original values as those are internal data of my former employer. 
+
+Michal Musil
+
+https://www.linkedin.com/in/michal-lisum/
 
 ---
 
@@ -98,8 +102,3 @@ Project Structure
 │   └── package.json          # Node.js dependencies and scripts
 ├── .gitignore                # Global Git ignore file
 └── README.md                 # This document
-
-Contact
-Michal Musil
-
-LinkedIn Profile: www.linkedin.com/in/michal-lisum
