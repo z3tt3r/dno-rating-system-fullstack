@@ -1,0 +1,59 @@
+# Ignorované soubory a složky pro celý projekt
+
+# OS-specific
+.DS_Store
+.localized
+
+# IDE-specific
+.idea/
+*.iml
+.vscode/
+
+# Java / Maven / Gradle (Backend)
+# Ignoruje složky a soubory specifické pro Java projekty a build nástroje
+/backend/target/           # Maven build output directory
+/backend/build/            # Gradle build output directory
+/backend/.gradle/          # Gradle wrapper files
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.log
+logs/
+# Pomocné soubory pom.xml generované Mavnem
+/backend/pom.xml.tag
+/backend/pom.xml.next
+/backend/pom.xml.release
+/backend/pom.xml.versionsBackup
+
+# Frontend (Node.js / React)
+# Ignoruje složky a soubory specifické pro Node.js projekty a build výstupy
+/frontend/node_modules/    # Node.js dependencies
+/frontend/build/           # React build output directory (e.g., Create React App)
+/frontend/dist/            # Common build output directory (e.g., Vite, Webpack)
+/frontend/.env             # Environment variables file (add .local for local-only ones)
+/frontend/.env.local
+/frontend/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sestavovací artefakty
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Databázové soubory (pokud jsou lokální, např. H2, SQLite)
+*.db
+*.mv.db
+*.trace.db
+
+# Různé
+.vagrant/
+.terraform/
+*.swp
+*~
+.cache/
+.DS_Store
