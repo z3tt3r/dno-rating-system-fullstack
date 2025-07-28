@@ -14,7 +14,7 @@ https://www.linkedin.com/in/michal-lisum/
 
 * **Dynamic Premium Calculation**: The application calculates premiums based on key parameters such as a company's annual **turnover**, desired insurance **limit**, and **financial performance**.
 * **Tiered Coefficients and Discounts**: It utilizes predefined coefficients for turnover bands (higher turnover leads to a lower base rate per million limit) and applies cascading discounts for higher insurance limits.
-* **Data Persistence**: Client and calculated risk data are stored in an embedded H2 Database.
+* **Data Persistence**: Client and calculated risk data are stored in mySQL Database.
 * **REST API**: The backend provides a robust REST API for communication with the frontend, handling requests, and delivering calculation results.
 * **User Interface**: An intuitive React UI allows users to easily input data and instantly visualize premium calculation results.
 
@@ -27,7 +27,7 @@ The project is built using modern technologies and tools:
 ### Backend
 * **Language**: Java 17+
 * **Framework**: Spring Boot 3.x
-* **Database**: H2 Database (embedded)
+* **Database**: MySQL
 * **Persistence**: Spring Data JPA / Hibernate
 * **Build Tool**: Gradle
 
