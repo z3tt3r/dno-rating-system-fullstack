@@ -35,8 +35,7 @@ The project is built using modern technologies and tools:
 * **Language**: JavaScript
 * **Library**: React 18+
 * **Build Tool**: Vite
-* **HTTP Client**: Axios
-* **Styling**: Tailwind CSS
+* **Styling**: Bootstrap
 
 ---
 
