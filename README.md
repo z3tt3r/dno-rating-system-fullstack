@@ -91,13 +91,13 @@ After successfully starting both the backend and frontend, open your web browser
 
 Project Structure
 .
-├── backend/                  # Spring Boot REST API
-│   ├── src/main/java/        # Main Java source code
-│   ├── src/main/resources/   # Configuration, templates
-│   └── build.gradle          # Gradle build configuration
-├── frontend/                 # React Single Page Application (SPA)
-│   ├── public/               # Static assets
-│   ├── src/                  # React components and application logic
-│   └── package.json          # Node.js dependencies and scripts
-├── .gitignore                # Global Git ignore file
-└── README.md                 # This document
+├── dno-rating-system-backend/                 # Spring Boot REST API
+│   ├── src/main/java/                         # Main Java source code
+│   ├── src/main/resources/                    # Configuration, templates
+│   └── build.gradle                           # Gradle build configuration
+├── dno-rating-system-frontend/                # React Single Page Application (SPA)
+│   ├── public/                                # Static assets
+│   ├── src/                                   # React components and application logic
+│   └── package.json                           # Node.js dependencies and scripts
+├── .gitignore                                 # Global Git ignore file
+└── README.md                                  # This document
